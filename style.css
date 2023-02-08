@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: url(./Assets/bg-mobile.jpg) no-repeat top center/cover;
-}
-
 :root {
   --text-color: white;
   --bg-url: url(./Assets/bg-mobile.jpg);
@@ -56,14 +52,8 @@ body * {
 
 #profile p {
   font-weight: 500;
-  font-size: 16px;
   line-height: 24px;
   margin-top: 8px;
-}
-
-#profile ul {
-  text-align: left;
-  padding: 24px;
 }
 
 #switch {
