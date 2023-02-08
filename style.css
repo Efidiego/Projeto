@@ -14,12 +14,12 @@ body {
   /* "Todos os comandos acima foram sintetizados abaixo*/
 
   /*background: color image repeat position/size */
-  background: url(./Assets/bg-mobile.jpg) no-repeat top center/cover;
+  background: url(./Assets/bg-mobile.png) no-repeat top center/cover;
 }
 
 :root {
   --text-color: white;
-  --bg-url: url(./Assets/bg-mobile.jpg);
+  --bg-url: url(./Assets/bg-mobile.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -185,11 +185,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg_escuro.jpg);
+    --bg-url: url(./assets/bg_escuro.png);
   }
 
   .light {
-    --bg-url: url(./assets/bg_claro.jpg);
+    --bg-url: url(./assets/bg_claro.png);
   }
 }
 
