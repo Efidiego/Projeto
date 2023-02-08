@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  /*
+  background-image: url(./Assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center ;
+  background-size: cover;
+}*/
+  /* "Todos os comandos acima foram sintetizados abaixo*/
+
+  /*background: color image repeat position/size */
+  background: url(./Assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
 :root {
   --text-color: white;
   --bg-url: url(./Assets/bg-mobile.jpg);
@@ -16,7 +29,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./Assets/bg-mobile-light.jpg);
+  --bg-url: url(./Assets/bg-mobile-light.png);
   --stroke-color: (0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -41,6 +54,7 @@ body * {
   padding: 0 24px;
 }
 
+/* profile*/
 #profile {
   text-align: center;
   padding: 24px;
@@ -52,8 +66,14 @@ body * {
 
 #profile p {
   font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
   margin-top: 8px;
+}
+
+#profile ul {
+  text-align: left;
+  padding: 24px;
 }
 
 #switch {
@@ -98,6 +118,7 @@ body * {
   border-radius: 9999px;
 }
 
+/* links */
 ul {
   list-style: none;
   display: flex;
@@ -125,11 +146,13 @@ ul li a {
   transition: background 0.2s;
 }
 
+/* pseudo-selector */
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
 }
 
+/* social links */
 #social-links {
   display: flex;
   justify-content: center;
@@ -159,6 +182,7 @@ footer {
   font: size 14px;
 }
 
+/* media queries */
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg_escuro.jpg);
@@ -169,6 +193,7 @@ footer {
   }
 }
 
+/* animations*/
 @keyframes slide-in {
   from {
     left: 0;
