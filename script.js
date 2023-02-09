@@ -1,5 +1,5 @@
 function toggleMode() {
-  const html = document.documentElement
+  const html = document.getElementById("light")
   html.classList.toggle("light")
 
   const img = document.querySelector("#profile img")
