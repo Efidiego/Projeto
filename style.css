@@ -14,27 +14,27 @@ body {
   /* "Todos os comandos acima foram sintetizados abaixo*/
 
   /*background: color image repeat position/size */
-  background: url("./Assets/bg-mobile.png") no-repeat top center/cover;
+  background: url('./Assets/bg-mobile.png') no-repeat top center/cover;
 }
 
 :root {
   --text-color: white;
-  --bg-url: url("./Assets/bg-mobile.png");
+  --bg-url: url('./Assets/bg-mobile.png');
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url("./Assets/moon-stars.svg");
+  --switch-bg-url: url('./Assets/moon-stars.svg');
 }
 
 .light {
   --text-color: black;
-  --bg-url: url("./Assets/bg-mobile-light.png");
+  --bg-url: url('./Assets/bg-mobile-light.png');
   --stroke-color: (0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./Assets/sun.svg);
+  --switch-bg-url: url('./Assets/sun.svg');
 }
 
 body {
@@ -185,11 +185,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url("./Assets/bg_escuro.png");
+    --bg-url: url('./Assets/bg_escuro.png');
   }
 
   .light {
-    --bg-url: url("./Assets/bg_claro.png");
+    --bg-url: url('./Assets/bg_claro.png');
   }
 }
 
